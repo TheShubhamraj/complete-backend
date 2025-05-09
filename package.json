@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon --experimental-json-modules -r dotenv/config src/index.js"
   },
   "keywords": [
     "javascript",
@@ -14,7 +14,11 @@
   "author": "Shubham raj",
   "license": "ISC",
   "dependencies": {
-    "-": "^0.0.1"
+    "-": "^0.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10",
