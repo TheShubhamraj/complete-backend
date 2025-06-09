@@ -1,0 +1,71 @@
+URL - uniform Resource locator
+URI - 
+URM
+// HTTP header
+
+metadata = key - value sent along with request and response
+kaam of header - caching,authentication,manage state
+x-  prefix -> 2012(x- deprecated)
+
+request haeder = from client
+response header = from server 
+representation header = encoding / compression
+payload header = data
+
+// Most Common Headers 
+1. accept: application/ json 
+2. User - agent
+3. Authorization:bearer----
+4. Content - Type 
+5. Cookie 
+6. Cache - Control
+
+// CORS
+1. Access - Control - Allow - Origin
+2.  Access - Control - Allow - Credentials
+3. Access - Control - Allow - Method
+
+// Security
+
+1.Cross - Origin - Embedder - Policy
+2.Cross - Origin - opener - Policy
+3. content - Security- Policy
+4. x- xss - Protection
+
+
+//----HTTP Methods----////
+
+basic set of operation that can be used to interact with server 
+
+1.GET - retrieve a Resource
+2. HEAD - no message body  (response headers only)
+3. OPTIONS - what operation are available
+4. TRACE = loopback test (get same data)
+5. DELETE = remove a Resource
+6. PUT = replace a Resource
+7. POST = interact with a Resource(mostly add)
+8. PATCH = change part of a Resource
+
+/// HTTP STATUS CODE ----------
+1. 1XX= Informational 
+2. 2xx = Success
+3. 3xx= Redirection
+4. 4xx = client error
+5.5xx= server error
+
+-------common status CODE--------
+
+100 = continue
+102 = processing
+200 = ok 
+201 = created
+202 = accepted 
+307 = temporary Redirection
+308 = permanent redirect 
+400 = bad request
+401 = unauthorized
+402 = payment required
+404 = not found
+500 = internal server error
+504 = gateway timeout
+
